@@ -1,0 +1,46 @@
+{
+  // For Auto Foramtting
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // For Todo Tree
+  "todo-tree.highlights.highlightWholeLine": true, // Highlight the whole line
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "tag",
+      "foreground": "#00ff00"
+    },
+    "@bug": {
+      "icon": "bug",
+      "type": "tag",
+      "foreground": "#ff0000"
+    },
+    "@feature": {
+      "icon": "rocket",
+      "type": "tag",
+      "foreground": "#007acc"
+    },
+    "P1": {
+      "icon": "circle-filled",
+      "type": "tag",
+      "foreground": "#ffaa00"
+    },
+    "@FIRE": {
+      "icon": "flame",
+      "type": "tag",
+      "foreground": "#ffffff",
+      "background": "#ff6600"
+    },
+    "@SKIPTEST": {
+      "icon": "eye-closed",
+      "type": "tag",
+      "background": "#ff0c0c",
+      "foreground": "#ffffff"
+    }
+  },
+  "todo-tree.general.tags": ["TODO", "FIXME", "@bug", "@feature", "P1", "@SKIPTEST", "@FIRE"],
+  "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS))",
+  "todo-tree.tree.showScanModeButton": false
+}

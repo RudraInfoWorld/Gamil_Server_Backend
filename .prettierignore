@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Public assets
+public/
+
+# Misc
+coverage/
+tmp/
+*.min.js
+
+# Ignore uploads or other static directories
+uploads/
+storage/
+
+# Ignore database dumps or data files
+*.sqlite
+*.db
+*.bak
+
+# Ignore git-related files
+.git/

@@ -1,0 +1,49 @@
+{
+  "name": "gamil_server_backend",
+  "version": "1.0.0",
+  "description": "This project provides a centralized platform to manage all mail-related services efficiently. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudraInfoWorld/Gamil_Server_Backend.git"
+  },
+  "keywords": [
+    "Email",
+    "management",
+    "automation",
+    "centralized",
+    "inbox",
+    "multi-provider",
+    "integration",
+    "scheduling",
+    "filtering",
+    "tracking",
+    "productivity",
+    "tool."
+  ],
+  "author": "Uday Shankar Purbey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RudraInfoWorld/Gamil_Server_Backend/issues"
+  },
+  "homepage": "https://github.com/RudraInfoWorld/Gamil_Server_Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.14.3",
+    "winston": "^3.17.0"
+  }
+}
